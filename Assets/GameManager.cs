@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
                 {
                     Vector3 direction = (touchPosition - touchStartPosition).normalized;
                     Rigidbody rb = objeto.GetComponent<Rigidbody>();
-                    rb.velocity = direction * 10f; // Modifica el valor de la velocidad según lo necesites
+                    rb.velocity = direction * 2f; // Modifica el valor de la velocidad según lo necesites
                     isDragging = false;
                 }
             }
